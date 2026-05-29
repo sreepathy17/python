@@ -1,0 +1,11 @@
+numbers=(5,10,15)
+print(numbers)
+print(numbers[1])#10
+print(numbers.count(10))
+print(numbers.index(10))
+x=list(numbers)
+print(x)
+a,b,c=numbers
+print(a,b,c)
+x.append(20)
+print(x)

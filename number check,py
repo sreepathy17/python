@@ -1,0 +1,10 @@
+def integer(number):
+    if number>0:
+        print (f"{number} is positve")
+    elif number==0:
+        print (f"{number} is zero") 
+    else:
+        print (f"{number} is negative") 
+integer(14)
+integer(-17)
+integer(0)          
